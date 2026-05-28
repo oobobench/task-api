@@ -1,2 +1,10 @@
 fastapi
 uvicorn
+pydantic
+sqlalchemy
+alembic
+psycopg2-binary
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+redis>=5.0
