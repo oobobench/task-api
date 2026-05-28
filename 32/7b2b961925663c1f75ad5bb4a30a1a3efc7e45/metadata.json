@@ -1,0 +1,50 @@
+{
+  "anchor_schema_version": 1,
+  "oobo_version": "1.1.0",
+  "commit_hash": "327b2b961925663c1f75ad5bb4a30a1a3efc7e45",
+  "branch": "main",
+  "author": "oobobench <bench@oobo.ai>",
+  "author_type": "automated",
+  "contributors": [
+    {
+      "name": "oobobench <bench@oobo.ai>",
+      "role": "human"
+    },
+    {
+      "name": "claude",
+      "role": "agent"
+    }
+  ],
+  "committed_at": 1779985476,
+  "message": "test: verify oobo hooks fire",
+  "files_changed": [
+    ".oobo/config",
+    "main.py"
+  ],
+  "added": 4,
+  "deleted": 0,
+  "file_changes": [
+    {
+      "path": ".oobo/config",
+      "added": 3,
+      "deleted": 0,
+      "attribution": "human"
+    },
+    {
+      "path": "main.py",
+      "added": 1,
+      "deleted": 0,
+      "attribution": "mixed",
+      "agent": "claude"
+    }
+  ],
+  "ai_added": 0,
+  "ai_deleted": 0,
+  "human_added": 4,
+  "human_deleted": 0,
+  "ai_percentage": 0.0,
+  "session_ids": [
+    "f4443fc1-cd44-49c8-ac02-7f1401b3d751"
+  ],
+  "transparency_mode": "on"
+}

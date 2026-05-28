@@ -1,0 +1,17 @@
+{
+  "session_id": "f4443fc1-cd44-49c8-ac02-7f1401b3d751",
+  "agent": "claude",
+  "link_type": "explicit",
+  "input_tokens": 20,
+  "output_tokens": 1090,
+  "cache_read_tokens": 105068,
+  "cache_creation_tokens": 22793,
+  "duration_secs": 8,
+  "tool_calls": 3,
+  "files_touched": [
+    "main.py",
+    "requirements.txt"
+  ],
+  "is_subagent": false,
+  "is_estimated": false
+}
