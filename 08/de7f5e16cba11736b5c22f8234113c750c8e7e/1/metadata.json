@@ -1,0 +1,20 @@
+{
+  "session_id": "2f1bdb7c-d1ec-4d14-8bd2-9d69fa04dff3",
+  "agent": "claude",
+  "link_type": "explicit",
+  "input_tokens": 14,
+  "output_tokens": 589,
+  "cache_read_tokens": 86908,
+  "cache_creation_tokens": 15288,
+  "duration_secs": 7,
+  "tool_calls": 3,
+  "files_touched": [
+    "main.py"
+  ],
+  "tool_usage": {
+    "Read": 1,
+    "Edit": 1
+  },
+  "is_subagent": false,
+  "is_estimated": false
+}

@@ -1,0 +1,55 @@
+{
+  "anchor_schema_version": 1,
+  "oobo_version": "1.1.0",
+  "commit_hash": "08de7f5e16cba11736b5c22f8234113c750c8e7e",
+  "branch": "main",
+  "author": "oobobench <bench@oobo.ai>",
+  "author_type": "agent",
+  "contributors": [
+    {
+      "name": "oobobench <bench@oobo.ai>",
+      "role": "human"
+    },
+    {
+      "name": "claude",
+      "role": "agent"
+    }
+  ],
+  "committed_at": 1779985522,
+  "message": "feat: add health check endpoint",
+  "files_changed": [
+    "main.py"
+  ],
+  "added": 5,
+  "deleted": 0,
+  "file_changes": [
+    {
+      "path": "main.py",
+      "added": 5,
+      "deleted": 0,
+      "attribution": "ai",
+      "agent": "claude",
+      "line_attributions": [
+        {
+          "author": "ai",
+          "ranges": [
+            {
+              "start": 9,
+              "end": 13
+            }
+          ],
+          "agent": "claude"
+        }
+      ]
+    }
+  ],
+  "ai_added": 5,
+  "ai_deleted": 0,
+  "human_added": 0,
+  "human_deleted": 0,
+  "ai_percentage": 100.0,
+  "session_ids": [
+    "2f1bdb7c-d1ec-4d14-8bd2-9d69fa04dff3"
+  ],
+  "transparency_mode": "on"
+}
