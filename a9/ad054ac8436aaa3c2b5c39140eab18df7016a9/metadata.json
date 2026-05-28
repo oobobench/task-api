@@ -1,0 +1,344 @@
+{
+  "anchor_schema_version": 1,
+  "oobo_version": "1.1.0",
+  "commit_hash": "a9ad054ac8436aaa3c2b5c39140eab18df7016a9",
+  "branch": "main",
+  "author": "oobobench <bench@oobo.ai>",
+  "author_type": "agent",
+  "contributors": [
+    {
+      "name": "oobobench <bench@oobo.ai>",
+      "role": "human"
+    },
+    {
+      "name": "claude",
+      "role": "agent"
+    }
+  ],
+  "committed_at": 1779987164,
+  "message": "feat: complete task management API (seed phase - 10 tasks)",
+  "files_changed": [
+    ".dockerignore",
+    ".env.example",
+    ".gitignore",
+    "Dockerfile",
+    "Makefile",
+    "README.md",
+    "alembic.ini",
+    "alembic/README",
+    "alembic/env.py",
+    "alembic/script.py.mako",
+    "alembic/versions/04dee273aceb_create_tasks_table.py",
+    "cache.py",
+    "config.py",
+    "conftest.py",
+    "database.py",
+    "docker-compose.yml",
+    "main.py",
+    "models.py",
+    "requirements.txt",
+    "routes/__init__.py",
+    "routes/auth.py",
+    "routes/tasks.py",
+    "schemas.py",
+    "security.py",
+    "test_tasks.py"
+  ],
+  "added": 1434,
+  "deleted": 4,
+  "file_changes": [
+    {
+      "path": ".dockerignore",
+      "added": 11,
+      "deleted": 0,
+      "attribution": "ai",
+      "agent": "claude",
+      "line_attributions": [
+        {
+          "author": "ai",
+          "ranges": [
+            {
+              "start": 1,
+              "end": 11
+            }
+          ],
+          "agent": "claude"
+        }
+      ]
+    },
+    {
+      "path": ".env.example",
+      "added": 20,
+      "deleted": 0,
+      "attribution": "ai",
+      "agent": "claude",
+      "line_attributions": [
+        {
+          "author": "ai",
+          "ranges": [
+            {
+              "start": 1,
+              "end": 20
+            }
+          ],
+          "agent": "claude"
+        }
+      ]
+    },
+    {
+      "path": ".gitignore",
+      "added": 8,
+      "deleted": 0,
+      "attribution": "ai",
+      "agent": "claude",
+      "line_attributions": [
+        {
+          "author": "ai",
+          "ranges": [
+            {
+              "start": 5,
+              "end": 8
+            }
+          ],
+          "agent": "claude"
+        }
+      ]
+    },
+    {
+      "path": "Dockerfile",
+      "added": 44,
+      "deleted": 0,
+      "attribution": "ai",
+      "agent": "claude",
+      "line_attributions": [
+        {
+          "author": "ai",
+          "ranges": [
+            {
+              "start": 1,
+              "end": 44
+            }
+          ],
+          "agent": "claude"
+        }
+      ]
+    },
+    {
+      "path": "Makefile",
+      "added": 54,
+      "deleted": 0,
+      "attribution": "ai",
+      "agent": "claude",
+      "line_attributions": [
+        {
+          "author": "ai",
+          "ranges": [
+            {
+              "start": 1,
+              "end": 54
+            }
+          ],
+          "agent": "claude"
+        }
+      ]
+    },
+    {
+      "path": "README.md",
+      "added": 68,
+      "deleted": 1,
+      "attribution": "ai",
+      "agent": "claude",
+      "line_attributions": [
+        {
+          "author": "ai",
+          "ranges": [
+            {
+              "start": 2,
+              "end": 69
+            }
+          ],
+          "agent": "claude"
+        }
+      ]
+    },
+    {
+      "path": "alembic.ini",
+      "added": 149,
+      "deleted": 0,
+      "attribution": "human"
+    },
+    {
+      "path": "alembic/README",
+      "added": 1,
+      "deleted": 0,
+      "attribution": "human"
+    },
+    {
+      "path": "alembic/env.py",
+      "added": 58,
+      "deleted": 0,
+      "attribution": "human"
+    },
+    {
+      "path": "alembic/script.py.mako",
+      "added": 28,
+      "deleted": 0,
+      "attribution": "human"
+    },
+    {
+      "path": "alembic/versions/04dee273aceb_create_tasks_table.py",
+      "added": 39,
+      "deleted": 0,
+      "attribution": "human"
+    },
+    {
+      "path": "cache.py",
+      "added": 128,
+      "deleted": 0,
+      "attribution": "human"
+    },
+    {
+      "path": "config.py",
+      "added": 17,
+      "deleted": 0,
+      "attribution": "ai",
+      "agent": "claude",
+      "line_attributions": [
+        {
+          "author": "ai",
+          "ranges": [
+            {
+              "start": 11,
+              "end": 12
+            }
+          ],
+          "agent": "claude"
+        }
+      ]
+    },
+    {
+      "path": "conftest.py",
+      "added": 43,
+      "deleted": 0,
+      "attribution": "human"
+    },
+    {
+      "path": "database.py",
+      "added": 20,
+      "deleted": 0,
+      "attribution": "ai",
+      "agent": "claude",
+      "line_attributions": [
+        {
+          "author": "ai",
+          "ranges": [
+            {
+              "start": 4,
+              "end": 4
+            },
+            {
+              "start": 6,
+              "end": 7
+            }
+          ],
+          "agent": "claude"
+        }
+      ]
+    },
+    {
+      "path": "docker-compose.yml",
+      "added": 52,
+      "deleted": 0,
+      "attribution": "ai",
+      "agent": "claude",
+      "line_attributions": [
+        {
+          "author": "ai",
+          "ranges": [
+            {
+              "start": 1,
+              "end": 52
+            }
+          ],
+          "agent": "claude"
+        }
+      ]
+    },
+    {
+      "path": "main.py",
+      "added": 110,
+      "deleted": 3,
+      "attribution": "human"
+    },
+    {
+      "path": "models.py",
+      "added": 66,
+      "deleted": 0,
+      "attribution": "human"
+    },
+    {
+      "path": "requirements.txt",
+      "added": 8,
+      "deleted": 0,
+      "attribution": "ai",
+      "agent": "claude",
+      "line_attributions": [
+        {
+          "author": "ai",
+          "ranges": [
+            {
+              "start": 6,
+              "end": 6
+            }
+          ],
+          "agent": "claude"
+        }
+      ]
+    },
+    {
+      "path": "routes/__init__.py",
+      "added": 0,
+      "deleted": 0,
+      "attribution": "human"
+    },
+    {
+      "path": "routes/auth.py",
+      "added": 39,
+      "deleted": 0,
+      "attribution": "human"
+    },
+    {
+      "path": "routes/tasks.py",
+      "added": 164,
+      "deleted": 0,
+      "attribution": "human"
+    },
+    {
+      "path": "schemas.py",
+      "added": 110,
+      "deleted": 0,
+      "attribution": "human"
+    },
+    {
+      "path": "security.py",
+      "added": 59,
+      "deleted": 0,
+      "attribution": "human"
+    },
+    {
+      "path": "test_tasks.py",
+      "added": 138,
+      "deleted": 0,
+      "attribution": "human"
+    }
+  ],
+  "ai_added": 302,
+  "ai_deleted": 1,
+  "human_added": 1132,
+  "human_deleted": 3,
+  "ai_percentage": 21.07093184979138,
+  "session_ids": [
+    "53a3bc75-77aa-4c22-86bb-4d54744576e7"
+  ],
+  "transparency_mode": "on"
+}
